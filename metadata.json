@@ -1,0 +1,8 @@
+{
+  "name": "ডা. আবুল কাশেম শিক্ষা ফাউন্ডেশন",
+  "description": "মেধা, নৈতিকতা ও তৃণমূল শিক্ষার মানোন্নয়নে নিবেদিত জাতীয় শিক্ষা ও গবেষণা ফাউন্ডেশন (DAKSF)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
