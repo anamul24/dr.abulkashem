@@ -25,7 +25,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  output: 'standalone',
+  // Vercel deployment works best with default output (serverless), standalone is for Docker/containers
+  ...(process.env.VERCEL ? {} : { output: 'standalone' }),
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
